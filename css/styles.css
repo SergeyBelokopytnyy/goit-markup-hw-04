@@ -362,8 +362,8 @@ header .container {
   margin-left: auto;
 }
 
-.mail {
-  margin-left: auto;
+.address-item:not(:last-child) {
+  /* margin-left: auto; */
   margin-right: 50px;
 }
 
