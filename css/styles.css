@@ -449,9 +449,10 @@ footer {
   font-size: 16px;
 }
 
-.project-item {
+.project-list > .project-item {
   margin-top: 30px;
   margin-left: 30px;
+  flex-basis: calc(100% / 3 - 30px);
 }
 
 .project-list {
